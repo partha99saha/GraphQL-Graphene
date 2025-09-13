@@ -20,15 +20,6 @@ class UserType(SQLAlchemyObjectType):
         model = User
 
 
-# Query
-# class Query(graphene.ObjectType):
-#     users = graphene.List(UserType)
-
-#     @jwt_required()
-#     def resolve_users(root, info):
-#         return db.query(User).all()
-
-
 class Query(graphene.ObjectType):
     users = graphene.List(UserType)
 
