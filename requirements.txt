@@ -1,0 +1,20 @@
+# Core framework
+Flask==3.0.3
+
+# GraphQL
+graphene==2.1.9
+Flask-GraphQL==2.0.1
+graphene-sqlalchemy==2.3.0
+
+# Database
+SQLAlchemy==1.4.52
+psycopg2-binary==2.9.9
+alembic==1.13.2
+
+# Authentication
+Flask-JWT-Extended==4.6.0
+passlib[bcrypt]==1.7.4
+bcrypt==3.2.2
+
+# Environment variables
+python-dotenv==1.0.1
